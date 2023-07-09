@@ -1,8 +1,7 @@
 def main():
-    text = input("the text: ")
-    print(convert(text))
+    message = input("type: ")
+    result = convert(message)
+    print(result)
+
+def convert(message):
     
-def convert(text):
-    text = text.replace(':(','🙁').replace(':)','🙂')
-    return text
-main()
